@@ -1,14 +1,22 @@
 # Testing Legacy Code with JUnit
 
 ## Getting Started
-1. Fork this repository to make a copy on your own GitHub account.
-1. Make sure that your browser is showing this project in your own repositories list in your own account.
-1. Click the green button on the right that says "Clone or Download". 
-1. The clone address should look like `git@github.com:your-github-username/junit-tests.git`, where `your-github-username` is actually your own username on GitHub.
-1. Once you've copied your repo's clone address, it's time to clone the project in one of two ways: 
-    - If you're using IntelliJ, choose New->Project From Version Control->Git and then paste in the clone address.`git clone git@github.com:your-github-username/junit-tests.git`.
-    - If you're using command line, then execute the following command line command: `git clone git@github.com:your-github-username/junit-tests.git`.
-1. Once cloned to your projects directory, open up the project.
+
+[//]: # (1. Fork this repository to make a copy on your own GitHub account.)
+
+[//]: # (1. Make sure that your browser is showing this project in your own repositories list in your own account.)
+
+[//]: # (1. Click the green button on the right that says "Clone or Download". )
+
+[//]: # (1. The clone address should look like `git@github.com:your-github-username/junit-tests.git`, where `your-github-username` is actually your own username on GitHub.)
+
+[//]: # (1. Once you've copied your repo's clone address, it's time to clone the project in one of two ways: )
+
+[//]: # (    - If you're using IntelliJ, choose New->Project From Version Control->Git and then paste in the clone address.`git clone git@github.com:your-github-username/junit-tests.git`.)
+
+[//]: # (    - If you're using command line, then execute the following command line command: `git clone git@github.com:your-github-username/junit-tests.git`.)
+
+[//]: # (1. Once cloned to your projects directory, open up the project.)
 
 ## Exercises
 
@@ -26,20 +34,20 @@ We will follow the best practices of TDD, and we will create our tests first and
     - The `Student` class should have a constructor that sets both the name and id property, it initializes the grades property as an empty ArrayList.
     - The `Student` class should have the following methods:
 ```java
-    // returns the student's id
-    public long getId(){...}
-
-    // returns the student's name
-    public String getName(){...}
-
-    // adds the given grade to the grades list
-    public void addGrade(int grade){...}
-  
-    // returns the list of grades
-    public ArrayList<Integer> getGrades(){...}
-
-    // returns the average of the students grades
-    public double getGradeAverage(){...}
+//    // returns the student's id
+//    public long getId(){...}
+//
+//    // returns the student's name
+//    public String getName(){...}
+//
+//    // adds the given grade to the grades list
+//    public void addGrade(int grade){...}
+//  
+//    // returns the list of grades
+//    public ArrayList<Integer> getGrades(){...}
+//
+//    // returns the average of the students grades
+//    public double getGradeAverage(){...}
 ```
 1. As always, commit and push all your changes once you're done.   
 _At the end of the exercise you will end up with a `Student.java` and a `StudentTest.java` class._
