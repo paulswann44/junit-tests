@@ -39,3 +39,4 @@ public class StudentTest {
         assertEquals(90, fer.getGradeAverage(), 0);
     }
 }
+
